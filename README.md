@@ -257,7 +257,7 @@
 
 * **Difference between method overloading and overriding.**
         <p align="center">
-        <img alt="Overloading and Overriding" src="https://github.com/VNAPNIC/android-interview/assets/overloading-vs-overriding.png">
+        <img alt="Overloading and Overriding" src="https://github.com/VNAPNIC/android-interview/blob/master/assets/overloading-vs-overriding.png">
         </p>
     - Overloading happens at compile-time while Overriding happens at runtime: The binding of overloaded method call to its definition happens at compile-time however binding of overridden method call to its definition happens at runtime.
     More info on static vs. dynamic binding: [StackOverflow](https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java).
