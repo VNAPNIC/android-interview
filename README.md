@@ -1,25 +1,3 @@
-<p align="center">
-<img alt="AndroidInterviewQuestions" src="https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/assets/android_interview_questions.png">
-</p>
-
-
-# Android Interview Questions
-[![MindOrks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
-[![MindOrks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
-[![MindOrks Android Store](https://img.shields.io/badge/Mindorks%20Android%20Store-Android%20Interview%20Questions-blue.svg?style=flat)](https://mindorks.com/android/store)
-
-> Android Interview Questions - Your Cheat Sheet For Android Interview
-
-## Prepared and maintained by [Amit Shekhar](https://github.com/amitshekhariitbhu) who is having experience of taking interviews of many Android developers and cracking interviews of top companies.
-
-<p align="center">
-<a href="https://bootcamp.mindorks.com" target="_blank">
-  <img alt="Android BootCamp" src="https://raw.githubusercontent.com/MindorksOpenSource/android-interview-questions/master/assets/interview-bootcamp.png">
-</a>	
-</p>
-
-# [Join and learn here](https://bootcamp.mindorks.com)
-
 ## Contents
 
 * [Data Structures And Algorithms](#data-structures-and-algorithms)
@@ -42,12 +20,6 @@
 ### Data Structures And Algorithms
 
 > The level of questions asked on the topic of Data Structures And Algorithms totally depends on the company for which you are applying.
-
-#### [Check Whiteboard Interview Series - Data Structures and Algorithms on Youtube](https://www.youtube.com/playlist?list=PLqOiaH9id5qt_lZl2bFi8q9RQoV1JJUpf)
-
-#### [Tech Interview Preparation Kit](https://afteracademy.com/tech-interview)
-
-#### [Android Developer should know these Data Structures for Next Interview](https://blog.mindorks.com/android-developer-should-know-these-data-structures-for-next-interview)
 
 * Array
     - An Array consists of a group of elements of the same data type. It is stored contiguously in memory and by using its' index, you can find the underlying data. Arrays can be one dimensional and multi-dimensional. One dimensional array is the simplest data structure, and also most commonly used. It is worth noting that in Java language multi-dimensional arrays are implemented as arrays of arrays. For example, `int[10][5]` is actually one array with its' cells pointing to ten 5-element arrays.    
@@ -285,7 +257,7 @@
 
 * **Difference between method overloading and overriding.**
         <p align="center">
-        <img alt="Overloading and Overriding" src="https://github.com/codeshef/android-interview-questions/blob/master/assets/overloading-vs-overriding.png">
+        <img alt="Overloading and Overriding" src="https://github.com/VNAPNIC/android-interview/assets/overloading-vs-overriding.png">
         </p>
     - Overloading happens at compile-time while Overriding happens at runtime: The binding of overloaded method call to its definition happens at compile-time however binding of overridden method call to its definition happens at runtime.
     More info on static vs. dynamic binding: [StackOverflow](https://stackoverflow.com/questions/19017258/static-vs-dynamic-binding-in-java).
@@ -561,7 +533,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * **What does the keyword `synchronized` mean?** [Link](https://stackoverflow.com/a/1085745/2621950)
 
-* **What is a `ThreadPoolExecutor`?** [MindOrks](https://blog.mindorks.com/threadpoolexecutor-in-android-8e9d22330ee3)
+* **What is a `ThreadPoolExecutor`?**
 
 * **What is `volatile` modifier?** [Jenkov](http://tutorials.jenkov.com/java-concurrency/volatile.html)
 
@@ -758,7 +730,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * **What is Dependency Injection?  Can you name few libraries? Have you used any?**
   - Dependency injection is a very powerful technique, where you relay the task of providing object with its' dependencies on instances of other objects (OOP Composition, [Wikipedia](https://en.wikipedia.org/wiki/Object_composition?oldformat=true)) to a separate class. This allows for fewer constructors, setters, factories and builders as all those functions are taken care of by the DI framework that you use. Also, and it may seem as a minor advantage, but if you use DI framework you need not worry about going through the project and changing all of (example names) `YourCustomInterface customInterfaceObject = new YourCustomClass();` to a new implementaion, as long as your new class (in place of `YourCustomClass`) still implements `CustomInterface` - you can just tweak the DI factory class to produce new class and voila - this new class will be automatically instantiated throughout your code. This allows for better maintenence and control over the program. Another example of DI usage is unit-testing - it allows to conveniently inject all needed dependencies and keep the amount of written code at a lower level.
-   - One of the most popular libraries for DI for Android is Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
+   - One of the most popular libraries for DI for Android is Dagger 2.
 
 * **How is a `StringBuilder` implemented to avoid the immutable string allocation problem?**
 
@@ -778,7 +750,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the structure of an Android Application?
 
-* What is `Context`? How is it used? [MindOrks](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
+* What is `Context`? How is it used?
 
 * What is `AndroidManifest.xml`? [Android Official](https://developer.android.com/guide/topics/manifest/manifest-intro)
 
@@ -786,9 +758,9 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Activity
 
-* What is `Activity`? [MindOrks](https://blog.mindorks.com/android-activity-lifecycle)
+* What is `Activity`?
 
-* Explain `Activity` and `Fragment` lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle)), [Activity lifecycle](https://blog.mindorks.com/android-activity-lifecycle) and [Fragments lifecycle](https://blog.mindorks.com/android-fragments-and-its-lifecycle)
+* Explain `Activity` and `Fragment` lifecycle. (Complete diagram [GitHub](https://github.com/xxv/android-lifecycle), simplified diagram for [Activity](https://developer.android.com/guide/components/activities/activity-lifecycle.html#alc), [Fragment](https://developer.android.com/guide/components/fragments.html#Lifecycle)), and [Fragments lifecycle](https://blog.mindorks.com/android-fragments-and-its-lifecycle)
 
 * What are "launch modes"? [MindOrks](https://blog.mindorks.com/android-activity-launchmode-explained-cbc6cf996802)
 
@@ -830,7 +802,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the ViewHolder pattern? Why should we use it?
 
-* What is `SnapHelper`? [MindOrks](https://blog.mindorks.com/using-snaphelper-in-recyclerview-fc616b6833e8)
+* What is `SnapHelper`?
 
 #### Dialogs and Toasts
 
@@ -866,7 +838,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is `Serivce`? [Developer Android](https://developer.android.com/guide/components/services)
 
-* `Service` vs `IntentService`. [MindOrks](https://blog.mindorks.com/service-vs-intentservice-in-android)
+* `Service` vs `IntentService`. 
 
 * What is a `JobScheduler`? [Vogella](http://www.vogella.com/tutorials/AndroidTaskScheduling/article.html)
 
@@ -900,7 +872,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?
 
-* Explain `Looper`, `Handler` and `HandlerThread`. [MindOrks](https://blog.mindorks.com/android-core-looper-handler-and-handlerthread-bd54d69fe91a) and [MindOrks Video](https://www.youtube.com/watch?v=rfLMwbOKLRk&list=PL6nth5sRD25hVezlyqlBO9dafKMc5fAU2)
+* Explain `Looper`, `Handler` and `HandlerThread`.
 
 #### Working With Multimedia Content
 
@@ -908,7 +880,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the difference between a regular `Bitmap` and a nine-patch image?
 
-* Tell about the `Bitmap` pool. [MindOrks](https://blog.mindorks.com/how-to-use-bitmap-pool-in-android-56c71a55533c)
+* Tell about the `Bitmap` pool. 
 
 * How to play sounds in Android? [Vogella](http://www.vogella.com/tutorials/AndroidMedia/article.html)
 
@@ -947,7 +919,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 #### Battery Life Optimizations
 
-* How to reduce battery usage in an android application? [MindOrks](https://blog.mindorks.com/battery-optimization-for-android-apps-f4ef6170ff70)
+* How to reduce battery usage in an android application?
 
 * What is Doze? What about App Standby? [Developer Android](https://developer.android.com/training/monitoring-device-state/doze-standby)
 
@@ -965,7 +937,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the NDK and why is it useful? [MindOrks](https://www.youtube.com/watch?v=iljxHVt7Arc)
 
-* What is renderscript? [MindOrks](https://blog.mindorks.com/comparing-android-ndk-and-renderscript-1a718c01f6fe)
+* What is renderscript?
 
 #### Android System Internal
 
@@ -985,9 +957,9 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is DDMS and what can you do with it?
 
-* What is the StrictMode? [MindOrks](https://blog.mindorks.com/use-strictmode-to-find-things-you-did-by-accident-in-android-development-4cf0e7c8d997)
+* What is the StrictMode?
 
-* What is Lint? What is it used for? [MindOrks](https://blog.mindorks.com/what-is-lint-what-is-it-used-for)
+* What is Lint? What is it used for?
 
 #### Others
 
@@ -999,17 +971,17 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is the difference between Serializable and Parcelable? Which is the best approach in Android?
 
-* Have you developed widgets? Describe. [MindOrks](https://blog.mindorks.com/android-widgets-ad3d166458d3)
+* Have you developed widgets? Describe.
 
 * What is AAPT?
 
 * What is the best way to update the screen periodically?
 
-* FlatBuffers vs JSON. [MindOrks](https://blog.mindorks.com/why-consider-flatbuffer-over-json-2e4aa8d4ed07)
+* FlatBuffers vs JSON.
 
-* `HashMap`, `ArrayMap` and `SparseArray` [MindOrks](https://blog.mindorks.com/android-app-optimization-using-arraymap-and-sparsearray-f2b4e2e3dc47)
+* `HashMap`, `ArrayMap` and `SparseArray`
 
-* What are Annotations? [MindOrks](https://blog.mindorks.com/creating-custom-annotations-in-android-a855c5b43ed9), [Link](https://blog.mindorks.com/improve-your-android-coding-through-annotations-26b3273c137a), [Video](https://www.youtube.com/watch?v=LEb9if2HHSw)
+* What are Annotations?
 
 * How to handle multi-touch in android [GitHub](https://arjun-sna.github.io/android/2016/07/20/multi-touch-android/)
 
@@ -1019,18 +991,18 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * What is Android Data Binding? [Developer Android](https://developer.android.com/topic/libraries/data-binding/index.html)
 
-* What are Android Architecture Components? [MindOrks](https://blog.mindorks.com/what-are-android-architecture-components)
+* What are Android Architecture Components?
 
-* How to implement search using RxJava operators? [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
+* How to implement search using RxJava operators?
 
 
 ### Architecture
 
 * Describe the architecture of your last app.
 
-* Describe MVP. [MindOrks](https://mindorks.com/course/android-mvp-introduction)
+* Describe MVP.
 
-* MVC vs MVP vs MVVM architecture. [MindOrks](https://blog.mindorks.com/mvc-mvp-mvvm-architecture-in-android)
+* MVC vs MVP vs MVVM architecture.
 
 * What is presenter?
 
@@ -1046,7 +1018,7 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Describe MVVM. [GitHub](https://github.com/MindorksOpenSource/android-mvvm-architecture)
 
-* Tell something about clean code [MindOrks](https://blog.mindorks.com/every-programmer-should-read-this-book-6755dedec78d)
+* Tell something about clean code
 
 
 ### Design Problem
@@ -1066,13 +1038,13 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 ### Tools And Technologies
 
-* Git. [MindOrks Youtube](https://www.youtube.com/watch?v=D4h8Dbrjt4M&list=PL6nth5sRD25itbyNVUULAebzL-VLrLfkK)
+* Git.
 
-* RxJava. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-rxjava-b55c0cea3631)
+* RxJava.
 
-* Dagger 2. [MindOrks](https://blog.mindorks.com/a-complete-guide-to-learn-dagger-2-b4c7a570d99c)
+* Dagger 2.
 
-* Android Development Useful Tools. [MindOrks](https://blog.mindorks.com/android-development-useful-tools-fd73283e82e3)
+* Android Development Useful Tools.
 
 * Firebase. [Firebase.google.com](https://firebase.google.com/)
 
@@ -1100,13 +1072,13 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 ### Others
 
-* What is Android Jetpack? [MindOrks](https://blog.mindorks.com/what-is-android-jetpack-and-why-should-we-use-it)
+* What is Android Jetpack?
 
 * Describe how REST APIs work. What is REST?
 
 * Describe other forms of web API architecutre. [GraphQL] (https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7) [SOAP] (https://www.w3.org/TR/ws-arch/)
 
-* Describe SQLite. [MindOrks](https://blog.mindorks.com/android-sqlite-database-in-kotlin)
+* Describe SQLite.
 
 * Describe database.
 
@@ -1114,11 +1086,11 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * About build System - gradle, maven, ant, buck.
 
-* About multiple apk for android application. [MindOrks](https://mindorks.com/blog/how-to-create-multiple-apk-files-for-android-application)
+* About multiple apk for android application.
 
 * Reverse Engineering an APK.
 
-* What is proguard used for? [MindOrks](https://blog.mindorks.com/applying-proguard-in-an-android-application)
+* What is proguard used for?
 
 * What is obfuscation? What is it used for? What about minification?
 
@@ -1128,46 +1100,18 @@ It is also a good practice to annotate overridden methods with `@Override` to ma
 
 * Can we identify users who have uninstalled our application?
 
-* Implement Search Using RxJava Operators. [MindOrks](https://blog.mindorks.com/implement-search-using-rxjava-operators-c8882b64fe1d)
+* Implement Search Using RxJava Operators.
 
-* APK Size Reduction. [MindOrks](https://blog.mindorks.com/how-to-reduce-apk-size-in-android-2f3713d2d662)
+* APK Size Reduction.
 
-* Android Development Best Practices. [MindOrks](https://blog.mindorks.com/android-development-best-practices-83c94b027fd3)
+* Android Development Best Practices.
 
-* Android Code Style And Guidelines. [MindOrks](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
+* Android Code Style And Guidelines.
 
-* Have you tried Kotlin? [MindOrks](https://blog.mindorks.com/why-you-must-try-kotlin-for-android-development-e14d00c8084b)
+* Have you tried Kotlin? 
 
-* What are Coroutines in Kotlin? [MindOrks](https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide)
+* What are Coroutines in Kotlin?
 
-* What are the metrics that you should measure continuously while android application development? [MindOrks](https://blog.mindorks.com/android-app-performance-metrics-a1176334186e)
+* What are the metrics that you should measure continuously while android application development?
 
-* What is Chrome Custom Tabs? How to display web content in your app? [MindOrks](https://blog.mindorks.com/android-browser-lets-launch-chrome-custom-tabs-with-kotlin)
-
-
-### Found this project useful :heart:
-
-* Support by clicking the :star: button on the upper right of this page. :v:
-
-[Check out MindOrks awesome open source projects here](https://mindorks.com/open-source-projects)
-
-
-### License
-```
-   Copyright (C) 2017 MINDORKS NEXTGEN PRIVATE LIMITED
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-```
-
-### Contributing to Android Interview Questions
-Just make pull request. You are in!
+* What is Chrome Custom Tabs? How to display web content in your app?
